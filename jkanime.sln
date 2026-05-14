@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jkanime.Domain", "jkanime.Domain\jkanime.Domain.csproj", "{B9C65B08-6FA3-46A9-81A5-1ED39DB4787D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jkanime.Infrastructure", "jkanime.Infrastructure\jkanime.Infrastructure.csproj", "{8EE095F9-39F4-4F26-81C6-DF4002BC2F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jkanime.Features", "jkanime.Features\jkanime.Features.csproj", "{84AD1B16-EC6A-4F0B-9941-6E757EC1D523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jkanime.Api", "jkanime.Api\jkanime.Api.csproj", "{209D8002-D2CE-40CE-B031-FEC9DB27B0F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C65B08-6FA3-46A9-81A5-1ED39DB4787D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C65B08-6FA3-46A9-81A5-1ED39DB4787D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C65B08-6FA3-46A9-81A5-1ED39DB4787D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C65B08-6FA3-46A9-81A5-1ED39DB4787D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE095F9-39F4-4F26-81C6-DF4002BC2F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE095F9-39F4-4F26-81C6-DF4002BC2F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE095F9-39F4-4F26-81C6-DF4002BC2F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE095F9-39F4-4F26-81C6-DF4002BC2F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AD1B16-EC6A-4F0B-9941-6E757EC1D523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AD1B16-EC6A-4F0B-9941-6E757EC1D523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AD1B16-EC6A-4F0B-9941-6E757EC1D523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AD1B16-EC6A-4F0B-9941-6E757EC1D523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209D8002-D2CE-40CE-B031-FEC9DB27B0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209D8002-D2CE-40CE-B031-FEC9DB27B0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209D8002-D2CE-40CE-B031-FEC9DB27B0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209D8002-D2CE-40CE-B031-FEC9DB27B0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
