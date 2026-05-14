@@ -10,4 +10,10 @@
       <ProjectReference Include="..\jkanime.Domain\jkanime.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Animes\" />
+      <Folder Include="Categories\" />
+      <Folder Include="Users\" />
+    </ItemGroup>
+
 </Project>

@@ -16,4 +16,9 @@
       <ProjectReference Include="..\jkanime.Infrastructure\jkanime.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="Hubs\" />
+    </ItemGroup>
+
 </Project>
