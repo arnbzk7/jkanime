@@ -4,15 +4,21 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\jkanime.Domain\jkanime.Domain.csproj" />
+      <ProjectReference Include="..\jkanime.Infrastructure\jkanime.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Animes\" />
-      <Folder Include="Categories\" />
+      <Folder Include="Animes\ActivateAnime\" />
+      <Folder Include="Animes\DeactivateAnime\" />
+      <Folder Include="Animes\GetAnime\" />
+      <Folder Include="Animes\UpdateAnime\" />
+      <Folder Include="Categories\GetCategory\" />
+      <Folder Include="Categories\UpdateCategory\" />
       <Folder Include="Users\" />
     </ItemGroup>
 

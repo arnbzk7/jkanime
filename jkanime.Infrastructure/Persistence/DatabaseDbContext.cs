@@ -10,6 +10,9 @@ public class DatabaseDbContext : DbContext
         
     }
     public DbSet<User> Users { get; set; }
+    public DbSet<Category> Categories { get; set; }
+    public  DbSet<Anime> Animes { get; set; }
+    public DbSet<AnimeCategory> AnimeCategories { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

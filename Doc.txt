@@ -1,0 +1,64 @@
+crear migracion
+dotnet ef migrations add Init --startup-project ../jkanime.Api  ------------Init se cambia cada vez
+
+aplicar migracion en la base de datos
+dotnet ef database update --startup-project ../jkanime.Api
+
+primero crear entidades de dominio
+luego configurar infrastructure DatabaseDbContext
+
+luego ir a program.cs a configurar el builder del DbContext
+
+la carpeta configurations creada crear configuraciones de todas las entidades incluyendo las de relaciones
+la builder.HasKey(c=>c.Id); debe ir menos en las entidades que no tienen Guid Id builder con builder.HasNoKey(); y su nombre
+
+dotnet ef error era el path  
+export PATH="$PATH:$HOME/.dotnet/tools"
+bashrc 
+
+
+comit ya configurado con el ssh
+
+git status --- para ver el estado de modificaciones
+git add . -------añadir las cosas
+git push ------- subir todo
+
+Docker compose 
+
+debemos crear el docker-compose.yml 
+
+############################ Features clean arquitecture vertical slice ######################################
+estandar en general:
+1. Obtener datos
+2. Validar
+3. Ejecutar lógica
+4. Guardar
+5. Retornar respuesta
+########## handler create ##################################
+buscar duplicados
+crear entidad
+Add()
+SaveChanges()
+return response
+############# handler update ############################33
+buscar entidad
+validar
+modificar
+SaveChanges()
+return response
+############## handler delete ######################
+buscar entidad
+validar
+Remove()
+SaveChanges()
+############## handler Get #################
+buscar datos
+mapear response
+return
+··················code··············
+HandleAsync(CreateDriverRequest request)
+
+handle-->maneja
+async-->asincronamente
+(dentro)--> necesita recibir un tipo...
+request--> aqui se guardarà eso q se reciba
